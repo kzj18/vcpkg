@@ -11,6 +11,7 @@ vcpkg_cmake_configure(
     OPTIONS 
         -DBUILD_SOPHUS_TESTS=OFF
         -DBUILD_SOPHUS_EXAMPLES=OFF
+        -DUSE_BASIC_LOGGING=ON
 )
 
 vcpkg_cmake_install()
